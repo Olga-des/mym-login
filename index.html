@@ -11,6 +11,8 @@
     Array.from(document.querySelectorAll('.toast'))
       .forEach(toastNode => new Toast(toastNode))
   </script>
+  <script src="js/index.js"></script>
+
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +27,6 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="scss/styles.scss">
   <link href="signin.css" rel="stylesheet">
-  <script src="js/index.js"></script>
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -74,6 +75,9 @@
       <form>
         <img class="mb-4 logo" src="images/mym-logo-blue-green.png" alt="mym logo" height="110">
         <!-- <h1 class="h3 mb-3 fw-normal">Please sign in</h1> -->
+        <div>
+          <p>MOTIVATE YOUR MATE</p>
+        </div>
     
         <div class="form-floating">
           <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -85,6 +89,8 @@
         </div>
     
         <button href="https://olga-des.github.io/mym-workout/" class="w-100 btn-custom" type="submit">Sign in</button>
+
+        <div><p id="restore">Restore Password</p></div>
       </form>
     </main>
     

@@ -15,6 +15,28 @@ body {
   background: linear-gradient(115.07deg, #2F2750 5.86%, #282C82 50.05%, #182E7C 93.34%);
 }
 
+p{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 10px;
+text-align: center;
+letter-spacing: 0.25em;
+margin-bottom: 50px !important;
+color: #49CCC0;
+}
+
+#restore{
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-top: 50px !important;
+  color: white;
+}
+
 .form-signin {
   width: 100%;
   max-width: 400px;
@@ -43,7 +65,7 @@ body {
 }
 
 .logo{
-  margin-bottom: 50px !important;
+  margin-bottom: 5px !important;
 }
 
 .btn-custom{
