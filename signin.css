@@ -79,3 +79,8 @@ color: #49CCC0;
   background:#0FC3CE;
   /* background: linear-gradient(135deg, rgba(186,215,90,1) 0%, rgba(96,197,69,1) 10%, rgba(84,194,66,1) 30%); */
 }
+
+.sign-in-btn.a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+}
